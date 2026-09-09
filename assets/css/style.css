@@ -85,6 +85,7 @@ h1, h2, h3 { margin-top: 0; line-height: 1.25; }
 .migrated-content td, .migrated-content th { padding: 10px; border: 1px solid var(--line); }
 .migrated-content hr { margin: 34px 0; border: 0; border-top: 1px solid var(--line); }
 .migrated-content iframe { max-width: 100%; }
+.officer-photo { display: block; width: 350px; height: 561px; max-width: 100%; object-fit: cover; object-position: center; }
 .notice { padding: 24px; border-left: 5px solid var(--gold); border-radius: 12px; background: #fff8e7; }
 .notice strong { font-size: 20px; }
 .assistance-intro { padding-bottom: 28px; border-bottom: 1px solid var(--line); }
@@ -132,6 +133,7 @@ h1, h2, h3 { margin-top: 0; line-height: 1.25; }
   .contact-strip { align-items: flex-start; flex-direction: column; padding: 30px 24px; }
   .footer-grid { grid-template-columns: 1fr; }
   .content-card { margin-top: 24px; border-radius: 14px; }
+  .officer-photo { width: 100%; height: auto; aspect-ratio: 350 / 561; }
 }
 
 @media (prefers-reduced-motion: reduce) {
